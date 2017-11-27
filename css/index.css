@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+#container{
+    display: inline-flex;
+    align-items: stretch;
+    padding: 10px;
+    margin: 50px auto;
+    background-color: #fff;
+
+}
+#container div{
+    display: inline-flex;
+    align-items: stretch;
+    padding: 20px 10px;
+    margin: 0 10px;
+    border: 1px solid #000000;
+    background-color: #fff;
+}
+#container div.selected{
+    border: 1px solid blue;
+}
+input{
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px inset;
+    text-indent: 10px;
+    outline: none;
+}
+button{
+    width: 80px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(to bottom, #4998bd, #446d91);
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    background: #4998bd;
+}
